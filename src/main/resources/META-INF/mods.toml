@@ -1,0 +1,80 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+credits="Build with love and passion: L41nx, all thanks to Fable 5 <3"
+description='''${mod_description}'''
+
+# Mixins (optional features only): the AMMO TYPE gunsmith slot. The config is "required": false - if it cannot apply, the mod runs without the slot.
+[[mixins]]
+config="mwloadout.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="tacz"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="lrtactical"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="limbdamage"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="presencefootsteps"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="tacticalfootsteps"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Cloth Config API: optional, only used to show the config screen from the Mods list
+[[dependencies.${mod_id}]]
+    modId="cloth_config"
+    mandatory=false
+    versionRange="[11,)"
+    ordering="NONE"
+    side="CLIENT"
+
+# YACL: optional, the detailed config screen (preferred over Cloth Config when both are installed)
+[[dependencies.${mod_id}]]
+    modId="yet_another_config_lib_v3"
+    mandatory=false
+    versionRange="[3,)"
+    ordering="NONE"
+    side="CLIENT"
