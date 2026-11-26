@@ -1,0 +1,85 @@
+name: Bug report
+description: Something in L41NX's Modern Loadout is broken or behaving unexpectedly.
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing, try `/mwloadout diagnose` in game (operator). It scans the catalog, blueprints and
+        presets and logs the common setup problems, which may already point at the cause.
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: tacz-version
+    attributes:
+      label: TACZ version
+      placeholder: "1.1.8"
+    validations:
+      required: true
+
+  - type: input
+    id: mc-forge
+    attributes:
+      label: Minecraft / Forge version
+      placeholder: "1.20.1 / Forge 47.4.10"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: side
+    attributes:
+      label: Where it happens
+      options:
+        - Dedicated server
+        - Single player
+        - LAN
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other relevant mods
+      description: LRTactical, TACZ Hitmarker, Limb Damage, the gunpack, YACL or Cloth Config. Versions if you know them. Interactions between mods are the most common root cause here.
+      placeholder: "LRTactical 1.x, TACZ Hitmarker 1.0.2, ..."
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. actual
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log
+      description: "The `[MWLoadout]` lines, any `Ignored an exception at ...` line, or the crash report. Paste it here or link a gist. Please do not paste a whole unfiltered log."
+      render: shell
+
+  - type: textarea
+    id: rules-json
+    attributes:
+      label: Relevant rules.json snippet
+      description: Only if you suspect the admin setup (for example dynamicAmmoTiers, killstreak, editZones). The part that matters, not the whole file.
+      render: json

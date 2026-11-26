@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest a new feature or an improvement.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What are you trying to do that the mod does not handle today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: |
+        As specific as you can. Concrete examples (numbers, thresholds, what happens in each case) help far more
+        than a general description.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: checkboxes
+    id: config-driven
+    attributes:
+      label: Note
+      options:
+        - label: This should default to OFF until an admin turns it on (the mod's usual convention)
+          required: false

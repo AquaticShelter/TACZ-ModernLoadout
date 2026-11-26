@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and general discussion
+    url: https://github.com/OWNER/REPO/discussions
+    about: For setup questions and balance talk that are not a specific bug or feature. Replace OWNER/REPO before publishing.
