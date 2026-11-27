@@ -36,8 +36,6 @@ Java 17, Forge 1.20.1 (exact versions in `gradle.properties`). Dependencies and 
 - **No empty `catch`.** Swallowed errors go through `MWLog` so they leave one line per call site.
 - **Text goes through the lang files** (`en_us.json`, and `vi_vn.json` if you can; leave it out otherwise and say so in the PR).
 - **Per-frame code allocates nothing it does not have to.** HUD and screen code runs every frame on every client.
-- **Keep the look switchable.** UI work keeps the classic style behind `angularUi = false`. Layout numbers come from
-  [docs/UI_MW4_CONCEPT.md](docs/UI_MW4_CONCEPT.md), not from guesses.
 - Network protocol changes bump the protocol number in `network/Net` and get an **Upgrade notes** line in the changelog.
 
 ## Commits and pull requests
