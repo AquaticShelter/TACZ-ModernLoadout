@@ -53,6 +53,6 @@ itself spawned.
 
 ## How it is made
 
-The mod is designed, tested and maintained by L41nx. A large part of the code and documentation was written with AI assistance working
-from those designs, bug reports and test sessions; everything that ships is built and played on a server first. The changelog is written
+The mod is designed, built, tested and maintained by L41nx. A smaller part, mainly fixes for critical bugs, was done with AI assistance working
+from L41nx's bug reports and test sessions; everything that ships is built and played on a server first. The changelog is written
 for the people running it, including the parts that are still rough.

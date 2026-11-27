@@ -140,10 +140,10 @@ Bug reports, test results, translations and focused fixes are welcome. Read [CON
 
 I am L41nx. I design the mod, decide what goes in, test it and keep it running; the changelog is the record of that.
 
-A large part of the code and the documentation was written with AI assistance (Claude, by Anthropic), working from my
-designs, bug reports and test results. I review and build what ships, but I want to be plain about it: this is an
-AI-assisted project, not a hand-typed one. The mod credits it in `mods.toml` as well. The source is GPL-3.0, so you can
-read it and judge it yourself.
+Most of the work is mine: the design, the code, the testing and the releases. A smaller part, mainly fixing critical
+bugs from my bug reports and test results, was done with AI assistance (Claude, by Anthropic). I review and build
+everything that ships, and I want to be plain about that help. The mod credits it in `mods.toml` as well. The source is
+GPL-3.0, so you can read it and judge it yourself.
 
 <!-- TODO(L41nx): confirm this paragraph matches how you want to describe your own part. Keep it accurate. -->
 

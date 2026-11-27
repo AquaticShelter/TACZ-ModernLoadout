@@ -70,7 +70,7 @@ Limb Damage. Fast Hands uses the built-in mw:reload_speed / mw:draw_speed attrib
 ## Honest notes
 
 - First public release. One unconfirmed crash report on Forge 47.4.28; tested on 47.4.10.
-- The code and the docs were written with AI assistance (Claude, by Anthropic) from my designs, bug reports and testing.
+- Most of the code and docs are mine. Claude (by Anthropic) helped with a smaller part, mainly fixing critical bugs from my bug reports and testing.
   It is GPL-3.0, read it if you like.
 
 Docs, issues and source: <your GitHub link>
