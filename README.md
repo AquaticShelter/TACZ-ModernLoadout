@@ -140,10 +140,7 @@ Bug reports, test results, translations and focused fixes are welcome. Read [CON
 
 I am L41nx. I design the mod, decide what goes in, test it and keep it running; the changelog is the record of that.
 
-Most of the work is mine: the design, the code, the testing and the releases. A smaller part and concept applying due to limitation , mainly fixing critical
-bugs and patching issues, as well as other part while designing and GITHUB supporting and contributing, from my bug reports and test results, was done with AI assistance (Claude, by Anthropic). I review and build
-everything that ships, and I want to be plain about that help. The source is GPL-3.0, so you can read it and judge it
-yourself.
+Most of the work is mine: the design, the code, the testing and the releases. Claude (by Anthropic) helped with a smaller part: fixing critical bugs and patching issues from my bug reports and test results, turning some of my concepts into working code where I was limited, and supporting me with GitHub. I review and build everything that ships. The source is GPL-3.0, so you can read it and judge it yourself.
 
 <!-- TODO(L41nx): confirm this paragraph matches how you want to describe your own part. Keep it accurate. -->
 
