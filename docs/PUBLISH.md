@@ -97,8 +97,7 @@ They are placeholders built from the supplied logo and a stand-in monospace font
       are fine, but rename anything distinctive if you are unsure. Search the code and lang files for `MW19`, `MW2019` and `mw19:`
       (the `mw19:` ids are LRTactical items and must stay).
 - [x] **Metadata**: `mods.toml` author is `L41nx`, package `dev.l41nx.mwloadout`.
-- [ ] **Credits line**: it currently reads "all thanks to Fable 5 <3". Keep the AI credit, but a plainer line reads better, for example:
-      `Created by L41nx. Developed with AI assistance (Claude, Anthropic).`
+- [x] **Credits line**: `mods.toml` now reads `Created by L41nx`. The AI assistance is disclosed in the README.
 - [ ] **Screenshots and gif** in the README and the gallery are real, from a current build.
 - [ ] **Test**: run `TESTING.md` end to end on a dedicated server, with a second client, and read the log for `Ignored an exception at`.
 - [ ] **Repository**: LICENSE, README, CHANGELOG, `docs/wiki`, issue templates, a release tag `1.0.0`, the jar attached.

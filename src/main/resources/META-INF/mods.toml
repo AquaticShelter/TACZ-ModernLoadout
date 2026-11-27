@@ -7,7 +7,7 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
-credits="Build with love and passion: L41nx, all thanks to Fable 5 <3"
+credits="Created by L41nx"
 description='''${mod_description}'''
 
 # Mixins (optional features only): the AMMO TYPE gunsmith slot. The config is "required": false - if it cannot apply, the mod runs without the slot.
